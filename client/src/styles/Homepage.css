@@ -1,0 +1,26 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.mid-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+.mid-left{
+    width: 70%;
+}
+.mid-right{
+    width: 30%;
+}
+.top-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    height: 100px;
+}

@@ -1,0 +1,145 @@
+.main-left{
+    flex: 0.8;
+    width: 100%;
+    background-color: inherit;
+    height: auto;
+    flex-direction: column;
+}
+.admin-name{
+    width: 95%;
+    height: 40px;
+    margin: 20px;
+    background-color: rgb(51, 35, 73);
+}
+.admin-name h4{
+    font-size: 22px;
+    padding: 10px;
+    color: wheat;
+}
+.work-con{
+    width: 95%;
+    height: 40px;
+    margin: 20px;
+    background-color: rgb(51, 35, 73);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.work-area-live{
+    flex: 0.8;
+    background-color: rgb(51, 35, 73);
+    min-height: auto;
+}
+
+.work-area-upcoming{
+    flex: 0.8;
+    background-color: rgb(112, 36, 184);
+    min-height: auto;
+}
+
+.work-area-recent{
+    flex: 0.8;
+    background-color: rgb(39, 97, 97);
+    min-height: auto;
+}
+.work-options{
+    flex: 0.2;
+    background-color: cyan;
+    display: flex;
+    width: 100%;
+}
+.work-options button{
+    width: 326px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 22px;
+    border: none;
+}
+#btn-live{
+        background-color: rgb(51, 35, 73);
+        color: white;
+}
+#btn-upcoming{
+        background-color:rgb(112, 36, 184);
+        color: wheat;
+}
+#btn-recent{
+        background-color: rgb(39, 97, 97);
+        color: white;
+}
+#upcoming-table{
+    margin-left: 90px;
+}
+
+.edit-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-btn{
+    width: 100%;
+    height: auto;
+}
+.edit-btn-1, .edit-btn-2,.edit-btn-3{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.edit-btn-1{
+   padding: 10px 20px;
+   background-color: rgb(26, 238, 97);
+   color: white;
+   border: none;
+} 
+.edit-btn-2{
+  padding: 10px;
+  background-color: rgb(78, 172, 235);
+  color: white;
+  border: none;
+}
+.edit-btn-3{
+    padding: 10px;
+    background-color:rgb(221, 138, 203);
+    border: none;
+    color: white;
+}
+
+.edit-input-box{
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.edit-input {
+   width: 170px;
+   height: 40px;
+   border: none;
+   background-color: rgb(214, 211, 211);
+   margin: 20px;
+   font-size: 18px;
+   padding: 10px;
+}
+.edit-submit{
+    background-color:  rgb(49, 49, 224);
+    color: white;
+}
+.edit-submit:hover{
+    background-color:rgb(103, 103, 223);
+    color: white;
+}
+.setProp{
+    color: white;
+}
+.imp{
+    color: aqua;
+}
